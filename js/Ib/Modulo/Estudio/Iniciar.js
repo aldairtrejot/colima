@@ -84,6 +84,7 @@ function guardarEstudio() {
         id_tbl_empleados_hraes:id_tbl_empleados_hraes
     },
         function (data) {
+            console.log(data);
             if (data == 'edit'){
                 notyf.success('Nivel de estudio modificado con éxito');
             } else if (data == 'add') {
